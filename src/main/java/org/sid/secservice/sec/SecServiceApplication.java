@@ -1,5 +1,4 @@
 package org.sid.secservice.sec;
-
 import org.sid.secservice.sec.entities.AppRoles;
 import org.sid.secservice.sec.entities.AppUser;
 import org.sid.secservice.sec.service.AccountService;
@@ -9,7 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-
 import java.util.ArrayList;
 
 @SpringBootApplication

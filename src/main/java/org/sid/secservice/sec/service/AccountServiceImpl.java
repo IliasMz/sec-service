@@ -1,5 +1,4 @@
 package org.sid.secservice.sec.service;
-
 import org.sid.secservice.sec.entities.AppRoles;
 import org.sid.secservice.sec.entities.AppUser;
 import org.sid.secservice.sec.repository.AppRoleRepository;
@@ -7,7 +6,6 @@ import org.sid.secservice.sec.repository.AppUserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import java.util.List;
 
 @Service
